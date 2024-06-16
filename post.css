@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+
+header>section{
+    background-color: rgb(27, 27, 88);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh 5vw;
+}
+
+header>section>h3{
+    margin-top: 1vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
+header>section>article>a{
+    color: white;
+    text-decoration: none;
+    margin: 1vh .5vw;
+    font-size: 1.2vw;
+}
+
+header>section>article>button{
+    background-color: white;
+    color: black;
+    padding: 2vh 2vw;
+    font-size: 1vw;
+    font-weight: 600;
+    border: none;
+}
+
+.author{
+    margin-top: 20vh;
+    margin-right: 45vw;
+}
+.author>article{
+    display: flex;
+    justify-content: center;
+    margin-right: 9vw;
+    font-size: 1.2vw;
+}
+
+.author>article>i{
+    margin-right: .5vw;
+}
+
+.andrew{
+    display: flex;
+    justify-content: center;
+}
+
+.andrew>img{
+    width: 3vw;
+    height: 3vw;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.andrew>div{
+    margin-left: 1vw;
+    margin-top: .2vw;
+}
+
+.andrew>div>p{
+    text-align: left;
+    font-size: 1.3vw;
+    color: purple;
+}
+
+.author>h3{
+    font-size: 2vw;
+    margin-left: 20vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+main>img{
+    margin: 10vw 5vw;
+    width: 89vw;
+    height: 50vw;
+    object-fit: cover;
+}
+
+.text{
+    margin-left: 20vw;
+    max-width: 60vw;
+}
+
+.text>h4{
+    font-size: 2vw;
+    margin-bottom: 5vh;
+}
+
+.text>p{
+    margin-bottom: 5vh;
+    color: gray;
+}
+
+.text>ul{
+    margin-left: 1vw;
+    font-size: 1.3vw;
+    color: rgb(76, 76, 76);
+    font-weight: 600;
+}
+
+.text>ul>li{
+    margin-bottom: 1vh;
+}
+
+.read_next{
+    margin: 20vh 5vw;
+}
+
+.read_next>h2{
+    font-size: 2vw;
+    margin-bottom: 10vh;
+}
+
+.read_next>article{
+    display: flex;
+    justify-content: space-between;
+}
+
+.read_next>article>a{
+    text-decoration: none;
+    max-width: 25vw;
+}
+
+.read_next>article>a>img{
+    height: 20vw;
+    width: 25vw;
+    object-fit: cover;
+}
+
+.read_next>article>a>p{
+    margin: 2vh 0;
+    color: black;
+}
+
+.read_next>article>a>h4{
+    font-size: 1.3vw;
+    color: black;
+    margin-bottom: 2vh;
+}
+
+.read_next>article>a>span{
+    color: gray;
+}
+
+.read_next>hr{
+    margin-top: 5vh;
+}
+
+.join{
+    margin: 30vh 5vw;
+    text-align: center;
+}
+
+.join>h5{
+    font-size: 2vw;
+    margin-bottom: 2vh;
+}
+
+.join>p{
+    font-size: 1.2vw;
+    color: rgba(83, 83, 83, 0.985);
+}
+
+.join>a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 197, 5);
+    display: inline-block;
+    margin-top: 3vh;
+    padding: 2vh 3vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+    transition: .5s;
+}
+
+.join>a:hover{
+    background-color: rgb(199, 153, 3);
+    transition: .5s;
+}
+
+footer{
+    background-color: rgb(27, 27, 88);
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh 5vw;
+}
+
+.name>h3{
+    margin-top: 1vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
+.name>article{
+    margin-top: 1.5vh;
+}
+
+.name>article>a{
+    color: white;
+    text-decoration: none;
+    margin: 1vh .5vw;
+    font-size: 1.2vw;
+}
+
+.subscribe{
+    margin: 5vw;
+    background-color: rgba(92, 92, 92, 0.613);
+    padding: 7vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe>h2{
+    color: white;
+    font-size: 2vw;
+}
+
+.subscribe>article{
+    margin-top: 2vh;
+}
+
+.subscribe>article>input{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1.5vh 5vw;
+    padding-top: 2vh;
+    margin-right: 2vw;
+}
+
+.subscribe>article>input::placeholder{
+    font-size: 1vw;
+    vertical-align: middle;
+}
+
+
+.subscribe>article>a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 197, 5);
+    display: inline-block;
+    padding: 1.3vh 3vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+    transition: .5s;
+}
+
+.subscribe>article>a:hover{
+    background-color: rgb(199, 153, 3);
+    transition: .5s;
+}
+
+.contact{
+    margin: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact>article>p{
+    color: rgba(152, 152, 152, 0.985);
+    margin-bottom: 1vh;
+}
+
+.contact>article>i{
+    color: rgba(152, 152, 152, 0.985);
+    font-size: 1.3vw;
+    margin-right: 1vw;
+}

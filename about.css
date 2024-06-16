@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+
+header>section{
+    background-color: rgb(27, 27, 88);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh 5vw;
+}
+
+header>section>h3{
+    margin-top: 1vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
+header>section>article>a{
+    color: white;
+    text-decoration: none;
+    margin: 1vh .5vw;
+    font-size: 1.2vw;
+}
+
+header>section>article>button{
+    background-color: white;
+    color: black;
+    padding: 2vh 2vw;
+    font-size: 1vw;
+    font-weight: 600;
+    border: none;
+}
+
+.about{
+    margin: 0 5vw;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6vh;
+}
+
+.about>article:nth-child(2){
+    max-width: 26vw;
+    margin-top: 15vh;
+    font-size: 1.3vw;
+    color: rgb(78, 78, 78);
+}
+
+.about>article:nth-child(1){
+    margin-left: 5vw;
+    background-color: white;
+    padding: 5vw;
+    padding-right: 15vw;
+}
+
+.about>article>p{
+    font-size: 1.3vw;
+    margin-bottom: 2vh;
+}
+
+.about>article>h1{
+    font-size: 3vw;
+    max-width: 25vw;
+}
+
+main>img{
+    position: absolute;
+    margin: 0 5vw;
+    width: 90vw;
+    height: 55vh;
+    object-fit: none;
+    margin-top: 38vh;
+}
+
+.rating{
+    background-color: rgb(255, 197, 5);
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    max-width: 45vw;
+    margin-left: 13.24vw;
+    margin-top: 22.9vh;
+    padding: 3vw;
+}
+
+.rating>article>h1{
+    font-size: 3vw;
+    text-align: center;
+}
+
+.rating>article>p{
+    text-align: center;
+}
+
+.line{
+    margin-left: 13.24vw;
+    position: relative;
+    display: flex;
+    justify-self: center;
+}
+
+.line>hr{
+    padding: .83vw;
+    border: none;
+}
+
+.line>hr:nth-child(1){
+    padding-right: 22vw;
+    background-color: rgb(78, 0, 181);
+}
+
+.line>hr:nth-child(2){
+    background-color: rgb(255, 197, 5);
+    padding-right: 40vw;
+}
+
+.our{
+    margin: 0 5vw;
+    background-color: rgba(168, 168, 168, 0.265);
+    width: 90vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 5vw;
+}
+
+.our>article{
+    max-width: 35vw;
+}
+
+.our>article>p{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+
+.our>article>h3{
+    font-size: 1.5vw;
+    margin: 2vh 0;
+}
+
+.our>article>span{
+    color: gray;
+}
+
+.team{
+    margin: 15vh 5vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5vw;
+    position: absolute;
+}
+
+.team>article>img{
+    width: 42.5vw;
+    height: 35vw;
+    object-fit: cover;
+}
+
+main>hr{
+    position: relative;
+}
+
+.team>article>h2{
+    font-size: 2.5vw;
+    margin-top: 10vh;
+}
+
+.team>article>p{
+    font-size: 2vw;
+    font-weight: 500;
+    margin: 3vh 0;
+}
+
+.team>article>span{
+    font-size: 1.3vw;
+    line-height: 2vw;
+}
+
+.team>article:nth-child(1),
+.team>article:nth-child(4){
+    max-width: 40vw;
+}
+
+.figure{
+    margin-top: 33vh;
+    width: 7vw;
+    height: 8vw;
+    margin-left: 49vw;
+    border-top-left-radius: 50%;
+    border: none;
+    background-color: rgb(255, 197, 5);
+}
+
+.square{
+    margin-top: 55.5vw;
+    width: 5vw;
+    height: 5vw;
+    margin-left: 15vw;
+    border-radius: 50%;
+    background-color: rgb(78, 0, 181);
+    border: none;
+}
+
+.authors{
+    margin: 25vh 5vw;
+    margin-top: 45vh;
+}
+
+.authors>h2{
+    text-align: center;
+    margin-bottom: 5vw;
+    font-size: 2vw;
+}
+
+.authors>section{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 3vw;
+    
+}
+.authors>section>a{
+    padding: 3vh 3vw;
+    max-width: 15vw;
+    background-color: rgba(193, 193, 193, 0.213);
+    transition: .5s;
+    text-decoration: none;
+}
+
+.authors>section>a:hover{
+    transition: .5s;
+    background-color: rgba(254, 255, 167, 0.499);
+}
+
+.authors>section>a>img{
+    width: 9vw;
+    height: 9vw;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1vh;
+}
+
+.authors>section>a>h5{
+    font-size: 1.4vw;
+    text-align: center;
+    color: black;
+}
+
+.authors>section>a>p{
+    font-size: .7vw;
+    color: rgb(44, 44, 44);
+    text-align: center;
+}
+
+.authors>section>a>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1.7vw);
+}
+
+.authors>section>a>div>i{
+    margin-top: 3vh;
+    font-size: 1.2vw;
+    margin: 1.4vh 1vw;
+    color: black;
+}
+
+.join{
+    margin: 30vh 5vw;
+    text-align: center;
+}
+
+.join>h5{
+    font-size: 2vw;
+    margin-bottom: 2vh;
+}
+
+.join>p{
+    font-size: 1.2vw;
+    color: rgba(83, 83, 83, 0.985);
+}
+
+.join>a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 197, 5);
+    display: inline-block;
+    margin-top: 3vh;
+    padding: 2vh 3vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+    transition: .5s;
+}
+
+.join>a:hover{
+    background-color: rgb(199, 153, 3);
+    transition: .5s;
+}
+
+footer{
+    background-color: rgb(27, 27, 88);
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh 5vw;
+}
+
+.name>h3{
+    margin-top: 1vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
+.name>article{
+    margin-top: 1.5vh;
+}
+
+.name>article>a{
+    color: white;
+    text-decoration: none;
+    margin: 1vh .5vw;
+    font-size: 1.2vw;
+}
+
+.subscribe{
+    margin: 5vw;
+    background-color: rgba(92, 92, 92, 0.613);
+    padding: 7vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe>h2{
+    color: white;
+    font-size: 2vw;
+}
+
+.subscribe>article{
+    margin-top: 2vh;
+}
+
+.subscribe>article>input{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1.5vh 5vw;
+    padding-top: 2vh;
+    margin-right: 2vw;
+}
+
+.subscribe>article>input::placeholder{
+    font-size: 1vw;
+    vertical-align: middle;
+}
+
+
+.subscribe>article>a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 197, 5);
+    display: inline-block;
+    padding: 1.3vh 3vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+    transition: .5s;
+}
+
+.subscribe>article>a:hover{
+    background-color: rgb(199, 153, 3);
+    transition: .5s;
+}
+
+.contact{
+    margin: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact>article>p{
+    color: rgba(152, 152, 152, 0.985);
+    margin-bottom: 1vh;
+}
+
+.contact>article>i{
+    color: rgba(152, 152, 152, 0.985);
+    font-size: 1.3vw;
+    margin-right: 1vw;
+}

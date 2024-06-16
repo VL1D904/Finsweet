@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+
+}
+
+
+header>section{
+    background-color: rgb(27, 27, 88);
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh 5vw;
+}
+
+header>section>h3{
+    margin-top: 1vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
+header>section>article>a{
+    color: white;
+    text-decoration: none;
+    margin: 1vh .5vw;
+    font-size: 1.2vw;
+}
+
+header>section>article>button{
+    background-color: white;
+    color: black;
+    padding: 2vh 2vw;
+    font-size: 1vw;
+    font-weight: 600;
+    border: none;
+}
+
+.title{
+    background-color: rgba(168, 168, 168, 0.265);
+    text-align: center;
+    padding: 10vh;
+}
+
+.title>h1{
+    font-size: 3vw;
+    margin-bottom: 3vh;
+}
+
+.title>span{
+    font-size: 1.1vw;
+    display: inline-block;
+    width: 35vw;
+    color: gray;
+}
+
+.title>p{
+    font-size: 1.5vw;
+    margin-top: 5vh;
+}
+
+.category{
+    margin: 15vh 5vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 25vw;
+}
+
+.category>section{
+    grid-column: span 2;
+}
+
+.post>img{
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.post{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5vh;
+    color: black;
+    text-decoration: none;
+}
+
+.post>article{
+    margin-left: 2vw;
+}
+
+.post>article>p{
+    color: purple;
+    font-size: 1.5vw;
+    margin: 3vh 0;
+}
+
+.post>article>h3{
+    font-size: 2.5vw;
+}
+
+.post>article>span{
+    display: block;
+    margin-top: 3vh;
+    width: 33vw;
+    color: gray;
+    line-height: 1.5vw;
+}
+
+.category>nav>h4{
+    font-size: 2vw;
+    margin-bottom: 3vh;
+}
+
+.category>nav>a{
+    border: solid gray .01vw;
+    display: flex;
+    justify-content: start;
+    padding: 3vh;
+    background-color: white;
+    text-decoration: none;
+    font-size: 1.5vw;
+    margin-bottom: 3vh;
+    color: black;
+    transition: .5s;
+}
+
+.category>nav>a:hover{
+    background-color: rgb(255, 197, 5);
+    transition: .5s;
+}
+
+.category>nav>a>i{
+    background-color: rgba(245, 222, 179, 0.285);
+    padding: .5vw .7vw;
+    border-radius: 20%;
+
+}
+
+.category>nav>a>p{
+    margin-top: .5vh;
+    margin-left: .5vw;
+}
+
+.tags{
+    display: grid;
+    grid-template-columns: repeat(4, 1.5fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 1vw;
+}
+
+.tags>p{
+    border-radius: 1vw;
+    text-align: center;
+    border: solid gray .15vw;
+    font-weight: 500;
+    color: gray;
+    padding: 1vh 0;
+}
+
+.tags>p:nth-child(1),
+.tags>p:nth-child(2){
+    grid-column: span 2;
+}
+
+.tags>p:nth-child(3),
+.tags>p:nth-child(6){
+    width: 5vw;
+}
+
+.tags>p:nth-child(4),
+.tags>p:nth-child(5){
+    grid-column: span 3;
+}
+
+footer{
+    background-color: rgb(27, 27, 88);
+}
+
+.name{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5vh 5vw;
+}
+
+.name>h3{
+    margin-top: 1vh;
+    color: rgb(255, 255, 255);
+    font-size: 2vw;
+}
+
+.name>article{
+    margin-top: 1.5vh;
+}
+
+.name>article>a{
+    color: white;
+    text-decoration: none;
+    margin: 1vh .5vw;
+    font-size: 1.2vw;
+}
+
+.subscribe{
+    margin: 5vw;
+    background-color: rgba(92, 92, 92, 0.613);
+    padding: 7vw 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subscribe>h2{
+    color: white;
+    font-size: 2vw;
+}
+
+.subscribe>article{
+    margin-top: 2vh;
+}
+
+.subscribe>article>input{
+    background-color: rgba(255, 255, 255, 0);
+    padding: 1.5vh 5vw;
+    padding-top: 2vh;
+    margin-right: 2vw;
+}
+
+.subscribe>article>input::placeholder{
+    font-size: 1vw;
+    vertical-align: middle;
+}
+
+
+.subscribe>article>a{
+    color: black;
+    text-decoration: none;
+    background-color: rgb(255, 197, 5);
+    display: inline-block;
+    padding: 1.3vh 3vw;
+    font-weight: 600;
+    font-size: 1.2vw;
+    transition: .5s;
+}
+
+.subscribe>article>a:hover{
+    background-color: rgb(199, 153, 3);
+    transition: .5s;
+}
+
+.contact{
+    margin: 0 5vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact>article>p{
+    color: rgba(152, 152, 152, 0.985);
+    margin-bottom: 1vh;
+}
+
+.contact>article>i{
+    color: rgba(152, 152, 152, 0.985);
+    font-size: 1.3vw;
+    margin-right: 1vw;
+}
